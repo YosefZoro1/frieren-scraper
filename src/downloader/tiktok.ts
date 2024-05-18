@@ -1,5 +1,5 @@
 import { Axios } from "../Utils";
-import { TiktokDownloadRapidApiServer } from "../Constant";
+const TiktokDownloadRapidApiServer = "https://tiktok-video-no-watermark2.p.rapidapi.com";
 import { errorHandling } from "../Interface";
 import { TiktokDownloadResult } from "../Types";
 
