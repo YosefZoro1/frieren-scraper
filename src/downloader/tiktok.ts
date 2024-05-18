@@ -1,4 +1,4 @@
-import { Axios } from "../Utils";
+import axios, { AxiosInstance, AxiosRequestConfig } from "axios";
 const TiktokDownloadRapidApiServer = "https://tiktok-video-no-watermark2.p.rapidapi.com";
 import { errorHandling } from "../Interface";
 import { TiktokDownloadResult } from "../Types";
