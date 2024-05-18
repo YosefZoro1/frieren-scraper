@@ -1,8 +1,17 @@
 import axios, { AxiosInstance, AxiosRequestConfig } from "axios";
 const TiktokDownloadRapidApiServer = "https://tiktok-video-no-watermark2.p.rapidapi.com";
 const errorHandling { error: boolean; message: string;};
-import { TiktokDownloadResult } from "../Types";
-
+const TiktokDownloadResult = {
+	unique_id: string;
+	nickname: string;
+	download_count: number;
+	duration: number;
+	description: string;
+	play: string;
+	wmplay: string;
+	hdplay: string;
+	music: string;
+};
 function RapidApiInit(url: string): {
 	headers: {
 		"x-rapidapi-key": string;
